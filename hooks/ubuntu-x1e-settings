@@ -1,0 +1,21 @@
+#!/bin/sh 
+PREREQ=""
+prereqs()
+{
+    echo "$PREREQ"
+}
+
+case $1 in
+prereqs)
+    prereqs
+    exit 0
+    ;;
+esac
+
+. /usr/share/initramfs-tools/hook-functions
+
+# Begin real processing below this line
+
+for f in /lib/firmware/qcom/x1e80100/LENOVO/21N1/* /lib/firmware/qcom/gen70500_* ; do
+    add_firmware "${f#/lib/firmware/}"
+done

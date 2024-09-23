@@ -1,0 +1,28 @@
+Source: ubuntu-x1e-settings
+Section: misc
+Priority: optional
+Maintainer: Tobias Heider <tobias.heider@canonical.com>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-modaliases
+Standards-Version: 4.6.2
+Vcs-Browser: https://git.launchpad.net/~ubuntu-concept/ubuntu/+source/ubuntu-x1e-settings
+Vcs-Git: https://git.launchpad.net/~ubuntu-concept/ubuntu/+source/ubuntu-x1e-settings
+
+Package: hwe-lenovo-x1e-meta
+Architecture: arm64
+Depends: ${misc:Depends},
+ ubuntu-x1e-settings,
+XB-Modaliases: ${modaliases}
+Description: Meta package for Ubuntu on Qualcomm X Elite based arm64 laptops
+ This package contains some default settings and dependencies that are
+ specific to Ubuntu running on Qualcomm X Elite arm64 laptops.
+
+Package: ubuntu-x1e-settings
+Architecture: arm64
+Depends: ${misc:Depends},
+ ubuntu-x1e-settings-nogrub,
+ flash-kernel,
+Description: Default settings for Ubuntu on Qualcomm X Elite arm64 laptops
+ This package contains some default settings that are specific to Ubuntu
+ running on Qualcomm X Elite arm64 laptops.
