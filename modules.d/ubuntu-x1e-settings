@@ -1,13 +1,18 @@
 # Core
-q6prm
 qcom_battmgr
 qcom_common
 qcom_pbs
-qcom_pil_info
 qcom_pd_mapper
 qcom_pdr_msg
 qcom_spmi_temp_alarm
 qmi_helpers
+
+# ?
+qcom_q6v5
+qcom_q6v5_adsp
+qcom_q6v5_pas
+qcom_pil_info
+qcom_sysmod
 mdt_loader
 
 # HID
@@ -31,6 +36,7 @@ phy_qcom_qmp_combo
 phy_qcom_snps_eusb2
 typec
 ufs_qcom
+ps8830
 
 # Display
 dispcc_sc8280xp
@@ -49,3 +55,17 @@ phy_qcom_edp
 pwm_bl
 pmic_glink
 qrtr
+
+# audio?
+q6apm_dai
+q6apm_lpass_dais
+q6prm
+q6prm_clocks
+snd_q6apm
+snd_q6dsp_common
+
+qcom_common
+qcom_cpucp_mbox
+qcom_glink_smem
+qcom_pon
+tcsrcc_x1e80100
