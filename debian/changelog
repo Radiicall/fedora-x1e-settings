@@ -1,4 +1,10 @@
-ubuntu-x1e-settings (24.10.0) oracular; urgency=medium
+ubuntu-x1e-settings (24.10.0~ppa2) oracular; urgency=medium
+
+  * Introduce ubuntu-x1e-settings-nogrub
+
+ -- Tobias Heider <tobias.heider@canonical.com>  Wed, 25 Sep 2024 11:48:09 +0200
+
+ubuntu-x1e-settings (24.10.0~ppa0) oracular; urgency=medium
 
   * Initial release.
 

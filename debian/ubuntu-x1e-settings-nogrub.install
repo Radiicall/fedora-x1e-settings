@@ -1,0 +1,2 @@
+hooks/* usr/share/initramfs-tools/hooks/
+modules.d/* usr/share/initramfs-tools/modules.d/

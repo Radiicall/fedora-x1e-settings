@@ -26,3 +26,13 @@ Depends: ${misc:Depends},
 Description: Default settings for Ubuntu on Qualcomm X Elite arm64 laptops
  This package contains some default settings that are specific to Ubuntu
  running on Qualcomm X Elite arm64 laptops.
+
+Package: ubuntu-x1e-settings-nogrub
+Architecture: arm64
+Replaces: ubuntu-x1e-settings (<< 24.10.2)
+Depends:
+ ${misc:Depends},
+ protection-domain-mapper
+Description: Default settings for Ubuntu on Qualcomm X Elite arm64 laptops
+ This package contains some default settings that are specific to Ubuntu
+ running on Qualcomm X Elite arm64 laptops which don't affect other hardware.
