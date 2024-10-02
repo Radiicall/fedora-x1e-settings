@@ -9,7 +9,7 @@ Standards-Version: 4.6.2
 Vcs-Browser: https://git.launchpad.net/~ubuntu-concept/ubuntu/+source/ubuntu-x1e-settings
 Vcs-Git: https://git.launchpad.net/~ubuntu-concept/ubuntu/+source/ubuntu-x1e-settings
 
-Package: hwe-lenovo-x1e-meta
+Package: hwe-qcom-x1e-meta
 Architecture: arm64
 Depends: ${misc:Depends},
  ubuntu-x1e-settings,
