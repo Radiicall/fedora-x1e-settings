@@ -1,3 +1,10 @@
+ubuntu-x1e-settings (24.10.0~ppa7) oracular; urgency=medium
+
+  * Drop initramfs customization. Neither modules nor firmware are
+    currently needed.
+
+ -- Tobias Heider <tobias.heider@canonical.com>  Wed, 09 Oct 2024 17:46:36 +0200
+
 ubuntu-x1e-settings (24.10.0~ppa6) oracular; urgency=medium
 
   * Change meta package name to qcom-x1e
