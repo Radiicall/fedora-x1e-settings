@@ -1,3 +1,9 @@
+ubuntu-x1e-settings (24.10.0~ppa8) oracular; urgency=medium
+
+  * Add Dell XPS 13 9345
+
+ -- Tobias Heider <tobias.heider@canonical.com>  Fri, 11 Oct 2024 12:40:21 +0200
+
 ubuntu-x1e-settings (24.10.0~ppa7) oracular; urgency=medium
 
   * Drop initramfs customization. Neither modules nor firmware are
