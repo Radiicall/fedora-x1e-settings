@@ -1,3 +1,12 @@
+ubuntu-x1e-settings (24.10.0~ppa9) oracular; urgency=medium
+
+  * Add more supported hardware:
+    - ASUS Vivobook hS15
+    - Dell XPS 13 9345
+    - HP OmniBook X 14
+
+ -- Tobias Heider <tobias.heider@canonical.com>  Mon, 21 Oct 2024 16:21:13 +0200
+
 ubuntu-x1e-settings (24.10.0~ppa8) oracular; urgency=medium
 
   * Add Dell XPS 13 9345
