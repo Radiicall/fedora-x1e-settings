@@ -1,3 +1,9 @@
+ubuntu-x1e-settings (24.10.0~ppa10) oracular; urgency=medium
+
+  * Update mesa provider snaps to adreno channels
+
+ -- Tobias Heider <tobias.heider@canonical.com>  Tue, 22 Oct 2024 19:56:55 +0200
+
 ubuntu-x1e-settings (24.10.0~ppa9) oracular; urgency=medium
 
   * Add more supported hardware:
