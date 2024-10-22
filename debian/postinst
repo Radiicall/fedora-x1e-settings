@@ -1,0 +1,22 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+        configure)
+                echo Refresh gnome-42-2204 snap to adreno/stable channel
+                snap refresh --channel adreno/stable --no-wait gnome-42-2204 || true
+                echo Refresh mesa-2404 snap to latest/beta/adreno channel
+                snap refresh --channel latest/beta/adreno --no-wait mesa-2404 || true
+        ;;
+
+        abort-upgrade|abort-remove|abort-deconfigure)
+        ;;
+
+        *)
+                echo "postinst called with unknown argument \`$1'" >&2
+                exit 1
+        ;;
+esac
+
+#DEBHELPER#
