@@ -6,6 +6,10 @@ case "$1" in
 		if [ -e /boot/grub/grub.cfg ] && which update-grub >/dev/null 2>&1; then
 			update-grub || true
 		fi
+		echo Refresh gnome-42-2204 snap to adreno/stable channel
+		snap refresh --channel adreno/stable --no-wait gnome-42-2204 || true
+		echo Refresh mesa-2404 snap to latest/beta/adreno channel
+		snap refresh --channel latest/beta/adreno --no-wait mesa-2404 || true
 		;;
 esac
 
