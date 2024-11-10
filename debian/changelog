@@ -1,3 +1,9 @@
+ubuntu-x1e-settings (24.10.0~ppa12) oracular; urgency=medium
+
+  * Fix postinst
+
+ -- Tobias Heider <tobias.heider@canonical.com>  Sun, 10 Nov 2024 10:53:02 +0100
+
 ubuntu-x1e-settings (24.10.0~ppa11) oracular; urgency=medium
 
   * Bump to run postinst
