@@ -32,6 +32,7 @@ Architecture: arm64
 Replaces: ubuntu-x1e-settings (<< 24.10.2)
 Depends:
  ${misc:Depends},
+ audioreach-topology-x1e,
  protection-domain-mapper
 Description: Default settings for Ubuntu on Qualcomm X Elite arm64 laptops
  This package contains some default settings that are specific to Ubuntu
