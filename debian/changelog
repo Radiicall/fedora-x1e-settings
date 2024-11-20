@@ -1,3 +1,9 @@
+ubuntu-x1e-settings (24.10.0~ppa13) oracular; urgency=medium
+
+  * Add dependency for audioreach-topology-x1e
+
+ -- Tobias Heider <tobias.heider@canonical.com>  Wed, 20 Nov 2024 18:58:27 +0100
+
 ubuntu-x1e-settings (24.10.0~ppa12) oracular; urgency=medium
 
   * Fix postinst
