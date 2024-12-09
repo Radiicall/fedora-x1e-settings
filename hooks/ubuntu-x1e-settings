@@ -1,4 +1,4 @@
-#!/bin/sh 
+#!/bin/sh
 PREREQ=""
 prereqs()
 {
@@ -14,8 +14,6 @@ esac
 
 . /usr/share/initramfs-tools/hook-functions
 
-# Begin real processing below this line
-
-for f in /lib/firmware/qcom/x1e80100/LENOVO/21N1/* /lib/firmware/qcom/gen70500_* ; do
-    add_firmware "${f#/lib/firmware/}"
+for f in $(find /lib/firmware/qcom/x1e80100 -type f); do
+        add_firmware "${f#/lib/firmware/}"
 done
