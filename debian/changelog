@@ -1,8 +1,8 @@
-ubuntu-x1e-settings (24.10.0~ppa14) oracular; urgency=medium
+ubuntu-x1e-settings (24.10.0~ppa15) oracular; urgency=medium
 
   * Add additional modules and firmware for early display support
 
- -- Tobias Heider <tobias.heider@canonical.com>  Mon, 09 Dec 2024 16:03:42 +0100
+ -- Tobias Heider <tobias.heider@canonical.com>  Mon, 09 Dec 2024 19:08:53 +0100
 
 ubuntu-x1e-settings (24.10.0~ppa13) oracular; urgency=medium
 
