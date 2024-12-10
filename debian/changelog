@@ -1,3 +1,9 @@
+ubuntu-x1e-settings (24.10.0~ppa16) oracular; urgency=medium
+
+  * Drop audioreach-topology for now
+
+ -- Tobias Heider <tobias.heider@canonical.com>  Tue, 10 Dec 2024 12:33:12 +0100
+
 ubuntu-x1e-settings (24.10.0~ppa15) oracular; urgency=medium
 
   * Add additional modules and firmware for early display support
