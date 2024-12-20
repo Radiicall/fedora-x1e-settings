@@ -1,3 +1,9 @@
+ubuntu-x1e-settings (24.10.0~ppa17) oracular; urgency=medium
+
+  * Change module list to fix FDE
+
+ -- Tobias Heider <tobias.heider@canonical.com>  Thu, 19 Dec 2024 17:06:43 +0100
+
 ubuntu-x1e-settings (24.10.0~ppa16) oracular; urgency=medium
 
   * Drop audioreach-topology for now
