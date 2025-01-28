@@ -1,3 +1,9 @@
+ubuntu-x1e-settings (24.10.0~ppa19) oracular; urgency=medium
+
+  * Add additional modules to fix FDE unlock
+
+ -- Tobias Heider <tobias.heider@canonical.com>  Wed, 08 Jan 2025 16:56:45 +0100
+
 ubuntu-x1e-settings (24.10.0~ppa18) oracular; urgency=medium
 
   * Refresh mesa-2404 snap to beta/kisak channel
