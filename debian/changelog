@@ -1,3 +1,9 @@
+ubuntu-x1e-settings (24.10.0~ppa20) oracular; urgency=medium
+
+  * Add Acer Swift and Microsoft Surface books
+
+ -- Tobias Heider <tobias.heider@canonical.com>  Tue, 28 Jan 2025 16:24:59 +0100
+
 ubuntu-x1e-settings (24.10.0~ppa19) oracular; urgency=medium
 
   * Add additional modules to fix FDE unlock
