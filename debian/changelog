@@ -1,3 +1,9 @@
+ubuntu-x1e-settings (24.10.0~ppa21) oracular; urgency=medium
+
+  * Add /lib/firmware/updates as search path for initrd fw
+
+ -- Tobias Heider <tobias.heider@canonical.com>  Fri, 07 Feb 2025 00:11:26 +0100
+
 ubuntu-x1e-settings (24.10.0~ppa20) oracular; urgency=medium
 
   * Add Acer Swift and Microsoft Surface books
