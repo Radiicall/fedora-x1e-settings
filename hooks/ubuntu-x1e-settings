@@ -17,3 +17,6 @@ esac
 for f in $(find /lib/firmware/qcom/x1e80100 -type f); do
         add_firmware "${f#/lib/firmware/}"
 done
+for f in $(find /lib/firmware/updates/qcom/x1e80100 -type f); do
+        add_firmware "${f#/lib/firmware/updates/}"
+done
