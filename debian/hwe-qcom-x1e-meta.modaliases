@@ -1,9 +1,0 @@
-alias dmi:bvnAcer:*:pnSwiftSF14-11* hwe-qcom-x1e-meta
-alias dmi:bvnASUSTeKCOMPUTERINC.:*:pnASUSVivobookS15* hwe-qcom-x1e-meta
-alias dmi:bvnDellInc.:*:pnXPS139345* hwe-qcom-x1e-meta
-alias dmi:bvnHP:*:pnHPOmniBookXLaptop14* hwe-qcom-x1e-meta
-alias dmi:bvnLENOVO:*:pvrThinkPadT14sGen6* hwe-qcom-x1e-meta
-alias dmi:bvnLENOVO:*:pvrYogaSlim714Q8X9* hwe-qcom-x1e-meta
-alias dmi:bvnMicrosoftCorporation:*:pvrMicrosoftSurfaceLaptop,7thEdition* hwe-qcom-x1e-meta
-alias dmi:bvnMicrosoftCorporation:*:pvrMicrosoftSurfaceLaptop,11thEdition* hwe-qcom-x1e-meta
-alias dmi:bvnSAMSUNGELECTRONICS*:*:pnGalaxyBook4Edge* hwe-qcom-x1e-meta
