@@ -46,6 +46,5 @@ dracut --force --regenerate-all
 %changelog
 * Thu Apr 24 2025 Radical <radical@radical.fun> - 2
   * Check both /lib/firmware and /lib/firmware/updates for x1e80100 firmware
-
 * Wed Apr 16 2025 Radical <radical@radical.fun> - 1
   * Initial release
