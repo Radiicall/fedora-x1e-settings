@@ -1,5 +1,5 @@
 Name: fedora-x1e-settings
-Version: 1
+Version: 2
 Release: 1%{?dist}
 Summary: Settings for Fedora on Qualcomm X Elite arm64 laptops
 BuildArch: aarch64
@@ -44,5 +44,8 @@ install -Dm755 module-setup.sh %{buildroot}%{_prefix}/lib/dracut/modules.d/99x1e
 dracut --force --regenerate-all
 
 %changelog
+* Thu Apr 24 2025 Radical <radical@radical.fun> - 2
+  * Check both /lib/firmware and /lib/firmware/updates for x1e80100 firmware
+
 * Wed Apr 16 2025 Radical <radical@radical.fun> - 1
   * Initial release

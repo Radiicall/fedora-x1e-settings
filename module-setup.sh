@@ -11,13 +11,15 @@ depends() {
 }
 
 install() {
-    local basedir="/lib/firmware/qcom/x1e80100"
+    for base in /lib/firmware /lib/firmware/updates; do
+        local basedir="$base/qcom/x1e80100"
 
-    if [ -d "$basedir" ]; then
-        find "$basedir" -type f | while read -r fw; do
-            # Get path relative to /lib/firmware
-            relpath="${fw#/lib/firmware/}"
-            inst_simple "$fw" "/lib/firmware/$relpath"
-        done
-    fi
+        if [ -d "$basedir" ]; then
+            find "$basedir" -type f | while read -r fw; do
+                # Get path relative to the firmware root
+                relpath="${fw#${base}/}"
+                inst_simple "$fw" "$base/$relpath"
+            done
+        fi
+    done
 }
